@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100;0,8..144,200;0,8..144,300;0,8..144,400;0,8..144,500;0,8..144,600;0,8..144,700;0,8..144,800;0,8..144,900;1,8..144,100;1,8..144,200;1,8..144,300;1,8..144,400;1,8..144,500;1,8..144,600;1,8..144,700;1,8..144,800;1,8..144,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #FFEDD5;
+  text-align: center;
+  margin: 0px auto;
+
+  max-width: 1280px;
+  width: 100%;
+
+  max-height: 720px;
+  height: 100%;
+}
+
+/** Header **/
+    header{
+      padding: 32px 0;
+
+      margin: 0 auto;
+      text-align: center;
+
+    }
+    header h1{
+      font-family: 'Roboto Serif', serif;
+      font-size: 28px;
+      font-weight: bold;
+
+      text-transform: uppercase;
+
+      color:  #2D2C2A;
+    }
+    header h1 span{
+      color: #995000;
+    }
+
+    header p{
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+
+      color: #000000aa;
+
+    }
+
+  /** Sections **/
+
+    .sections{
+      max-height: 363px;
+      height: 100%;
+      width: 300px;
+
+
+
+      margin: 1rem auto;
+    }
+
+    .sections_texts{
+      font-family: 'Roboto Serif', serif;
+      font-weight: bold;
+      font-size: 18px;
+
+      padding: 8px 16px;
+      text-align: center;
+
+      text-transform: uppercase;
+
+      background: #FED7AA;
+
+    }
+
+    .sections ul {
+      margin-top: 24px;
+      list-style: none;
+
+      text-align: left;
+    }
+
+    .sections ul li{
+      margin-bottom: 16px;
+
+      display: flex;
+    }
+    .sections ul li div{
+      width: 300px;
+      height: 90px;
+
+    }
+
+    /** Contetn Container Details **/
+
+      .details{
+        max-width: 240px;
+
+      }
+      .details h3{
+        font-family: 'Roboto Serif', serif;
+        font-weight: bold;
+        font-size: 16px;
+
+        text-transform: uppercase;
+
+        margin-bottom: 8px;
+
+        max-width: 145px;
+        width: 100%;
+      }
+
+      .details p{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+
+        color: rgba(0, 0, 0, 0.6);
+      }
+
+      /** Price Strong Div **/
+        .price{
+          font-family: 'Roboto Serif', serif;
+          font-weight: bold;
+          font-size: 16px;
+
+          width: 36px;
+
+
+        }
+
